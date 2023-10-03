@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="leftSide">
+    <header>
+        Pick your city
+    </header>
+    <button id="SAbtn" class="sanantoniobtn">San Antonio</button>
+    <button id="Hbtn" class="Houstonbtn">Houston</button>
+    </div>
+    <div class="rightSide">
+        <p class="weatherData"></p>
+        <textarea
+            readonly
+            id="weatherData"
+            placeholder="Pick a city to see the weather!"
+            aria-label="Weather"
+          ></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
